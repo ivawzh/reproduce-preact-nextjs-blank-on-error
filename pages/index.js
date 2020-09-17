@@ -4,9 +4,16 @@ export default function Home() {
   return (
     <div>
       Hello World.{' '}
-      <Link href="/about">
-        <a>About</a>
-      </Link>
+      <div>
+        <Link href="/about">
+          <a>About</a>
+        </Link>
+      </div>
+      <div>
+        <Link href="/error">
+          <a>Error</a>
+        </Link>
+      </div>
     </div>
   )
 }
